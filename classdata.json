@@ -1,0 +1,105 @@
+[
+    {
+            "name": "Dreadnaught",
+            "description": "Fighter/Pole user, heavy focus in PvE content by taking on large groups of mobs at the same time.\n Can be used as a \"meat shield\" in PvP, while making use of his AOE stuns.",
+            "pros": "Good farmer, can help boost others, overall tanky",
+            "cons": "Not much damage in PvP, slow, if stun is resisted, provides little value",
+            "race": "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName": "Warrior",
+            "secondClassName": "Dreadnaught",
+            "thirdClassName": "Warlord"
+        },
+        {
+            "name": "Gladiator",
+
+            "race":             "Humans",
+            "description": "Fighter/Dual-Sword user, a mixture of decent PvE and Strong PvP,\n scales well into the later stages of the game, \ngood coverage of ranged and melee attacks, resistances, and HP/CP pool.",
+            "pros":             "Great 1vs1 potential, has ranged attacks to deal with threats from afar, great overall \"bulk\".",
+            "cons":             "Relatively expensive to gear up, rough leveling experience.",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Warrior",
+            "secondClassName":  "Gladiator",
+            "thirdClassName":   "Duelist"
+
+
+        },
+        {
+            "name": "Paladin",
+            "description": "Tank/Sword&Shield user, with extremely high defenses and HP pool,\n with a focus on side-heals and keeping threats away from the rest of the group.",
+            "pros":             "Arguably the bulkiest tank in the game, with decent sudo-heal capability and CC potential.",
+            "cons":             "Rough leveling experience due to lack of damage, doesn't bring much utility to a flight due to being overall slow.",
+            "race":             "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Paladin",
+            "thirdClassName":   "Phoenix Knight"
+        },
+        {
+            "name":             "Treasure Hunter",
+            "description":      "Assassin/Dagger user, has great mobility, decent HP pool, and can Lethal Strike for a quick kill.",
+            "pros":             "High speed due to Dash skill, can open chests for the chance of extra Adena/enchants, \nif backstab procs Lethal it can end fights extremely quick.",
+            "cons":             "Very dependent on the chance landing critical/lethal strikes, \ncant reliably use backstab until later on due to being very easy to turn around and avoid the skill that way, overall slow leveling.",
+            "race":             "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Rogue",
+            "secondClassName":  "Treasure Hunter",
+            "thirdClassName":   "Adventurer"
+        },
+        {
+            "name":             "Hawkeye",
+            "description":      "Archer/Bow user, has great mobility, decent HP pool, can do very reliable and constant damage with the chance for high critical hits.",
+            "pros":             "High mobility lets him stay out of range of most threats, can survive a couple of hits due to decent HP pool, crits for high damage.",
+            "cons":             "Extremely expensive leveling, the bow has a high consumption rate of SoulShots, needs to buy/craft arrows, overall very slow and expensive leveling experience.",
+            "race":             "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Rogue",
+            "secondClassName":  "Hawkeye",
+            "thirdClassName":   "Sagittarius"
+        },
+        {
+            "name":             "Dark Avenger",
+            "description":      "Tank/Sword&Shield user, has the use of a panther pet that can deal decent damage, has a mixture of stuns and debuffs.",
+            "pros":             "Panther can deal decent damage in a group environment, great 1vs1 due to being tanky and having the pet.",
+            "cons":             "Panther can be expensive when you are just getting started, steals XP from you which makes your leveling a bit slower.",
+            "race":             "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Dark Avenger",
+            "thirdClassName":   "Hell Knight"
+        },
+        {
+            "name":             "Sorcerer",
+            "description":      "Magic-user, has the most AOE ability of all mages, a decent amount of debuffs, overall OK stats all around.",
+            "pros":             "Has a great time leveling up due to the high amount of AOE skills, kills fast, and doesn't require many resources, overall good for a first character.",
+            "cons":             "Lack of strength in single target, lacks the high damage of the dark elf and the cast speed of the elf, \n can be considered \"jack of all trades, master of none\".",
+            "race":             "Humans",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "Sorcerer",
+            "thirdClassName":   "Archmage"
+        },
+        {
+            "name":             "Necromancer",
+            "description":      "Magic-user/Sudo-summoner, has access to a lot of debuffs and curses, decent damage in single target with a decent-to-good AOE ability.",
+            "pros":             "Acess to a summon to reduce the amount of damage taken, has the ability to debuff/curse multiple targets due to AOE debuffs, decent damage overall.",
+            "cons":             "Extremely rough early leveling experience, can be relatively expensive due to the need for resources to use his skills.",
+            "race":             "Humans",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "Necromancer",
+            "thirdClassName":   "SoulTaker"
+        },
+        {
+            "name":             "Temple Knight",
+            "description":      "Tank/Sword&Shield user, has access to cubics that can help the party by healing/damaging enemies, can sudo-heal.",
+            "pros":             "Cubics provide an OK help to party members both in PvE and PvP, has access to strong heals, high evasion.",
+            "cons":             "Low damage overall, slow leveling experience.",
+            "race":             "Elfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Temple Knight",
+            "thirdClassName":   "Eva´s Templar"
+        }
+
+    ]
