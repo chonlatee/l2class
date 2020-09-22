@@ -36,6 +36,17 @@
             "thirdClassName":   "Phoenix Knight"
         },
         {
+            "name":             "Dark Avenger",
+            "description":      "Tank/Sword&Shield user, has the use of a panther pet that can deal decent damage, has a mixture of stuns and debuffs.",
+            "pros":             "Panther can deal decent damage in a group environment, great 1vs1 due to being tanky and having the pet.",
+            "cons":             "Panther can be expensive when you are just getting started, steals XP from you which makes your leveling a bit slower.",
+            "race":             "Humans",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Dark Avenger",
+            "thirdClassName":   "Hell Knight"
+        },
+        {
             "name":             "Treasure Hunter",
             "description":      "Assassin/Dagger user, has great mobility, decent HP pool, and can Lethal Strike for a quick kill.",
             "pros":             "High speed due to Dash skill, can open chests for the chance of extra Adena/enchants, \nif backstab procs Lethal it can end fights extremely quick.",
@@ -56,17 +67,6 @@
             "firstClassName":   "Rogue",
             "secondClassName":  "Hawkeye",
             "thirdClassName":   "Sagittarius"
-        },
-        {
-            "name":             "Dark Avenger",
-            "description":      "Tank/Sword&Shield user, has the use of a panther pet that can deal decent damage, has a mixture of stuns and debuffs.",
-            "pros":             "Panther can deal decent damage in a group environment, great 1vs1 due to being tanky and having the pet.",
-            "cons":             "Panther can be expensive when you are just getting started, steals XP from you which makes your leveling a bit slower.",
-            "race":             "Humans",
-            "starterClassName": "Fighter",
-            "firstClassName":   "Knight",
-            "secondClassName":  "Dark Avenger",
-            "thirdClassName":   "Hell Knight"
         },
         {
             "name":             "Sorcerer",
@@ -91,6 +91,39 @@
             "thirdClassName":   "SoulTaker"
         },
         {
+            "name":             "Warlock",
+            "description":      "Summoner, has access to pets that can aid in both attacking and buffing others, relatively cheap due to the fact of not needing much gear, \ncubics provide good support to the party, ability to summon party members to his location.",
+            "pros":             "Easy class to play and learn, can be good both in solo and group content by using the summons, cheap to level since there's no need for gear.",
+            "cons":             "Can be rendered useless once the pet is killed/erased, lack of overall damage outside of pet damage.",
+            "race":             "Humans",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "Warlock",
+            "thirdClassName":   "Arcana Lord"
+        },
+        {
+            "name":             "Bishop",
+            "description":      "Healer/Buffer, undoubtedly the best healer in the game, has access to a decent amount of buffs.",
+            "pros":             "Unquestionably the best healer in the game, has access to decent buffs, can sleep enemies, and render them useless.",
+            "cons":             "Extremely hard to level alone due to lack of damage against non-undead targets, can be tough to play due to being a very important part of every party.",
+            "race":             "Humans",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Cleric",
+            "secondClassName":  "Bishop",
+            "thirdClassName":   "Cardinal"
+        },
+        {
+            "name":             "Prophet",
+            "description":      "Buffer/Healer, has a very wide range of buffs and debuffs, can side heal when necessary.",
+            "pros":             "Has access to the highest amount of buffs out of any support, great unique buffs for both melee/ranged/magic classes, can help to heal when needed.",
+            "cons":             "Overall a slow leveling experience due to lack of damage, mana issues when buffing multiple people due to the need for buffing 1 by 1.",
+            "race":             "Humans",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Cleric",
+            "secondClassName":  "Bishop",
+            "thirdClassName":   "Cardinal"
+        },
+        {
             "name":             "Temple Knight",
             "description":      "Tank/Sword&Shield user, has access to cubics that can help the party by healing/damaging enemies, can sudo-heal.",
             "pros":             "Cubics provide an OK help to party members both in PvE and PvP, has access to strong heals, high evasion.",
@@ -100,6 +133,72 @@
             "firstClassName":   "Knight",
             "secondClassName":  "Temple Knight",
             "thirdClassName":   "Eva´s Templar"
+        },
+        {
+            "name":             "Swordsinger",
+            "description":      "Support/Sudo-Tank, has access to songs that boost party members that are within a certain range of the cast, can help with tanking.",
+            "pros":             "Amazing support provided with the songs, can boost both offensive and defensive abilities, has access to AOE and single-target debuffs. High defense, relatively easy to find parties for XP.",
+            "cons":             "Lacks a lot of damage, a big gap between learning good buffs, slow leveling experience, can be relatively boring to play due to the style of the class.",
+            "race":             "Elfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Swordsinger",
+            "thirdClassName":   "SwordMuse"
+        },
+        {
+            "name":             "Plains Walker",
+            "description":      "Assassin/Dagger user, has high base speed and evasion, can open chests for extra loot, and has a decent heal. Can land a deadly blow to end fights quick.",
+            "pros":             "High base stats, can sustain when farming alone due to having a decent heal for himself, if lucky with critical and deadly blows, fights end quickly.",
+            "cons":             "Lack of overall damage, even when compared to other daggers, very reliant on the luck of skills, slow leveling experience.",
+            "race":             "Elfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Scout",
+            "secondClassName":  "Plains Walker",
+            "thirdClassName":   "Wind Rider"
+        },
+        {
+            "name":             "Silver Ranger",
+            "description":      "Archer/Bow user, has high base speed and can land critical shots for a respectable amount of damage.",
+            "pros":             "High speed makes him great in open-world fights, access to a decent self-heal, and agro reset.",
+            "cons":             "Lacks damaged compared to the other archer classes, very slow and expensive leveling experience.",
+            "race":             "Elfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Scout",
+            "secondClassName":  "Silver Ranger",
+            "thirdClassName":   "Moonlight Sentinel"
+        },
+        {
+            "name":             "SpellSinger",
+            "description":      "Magic-user, has access to decent AOE skills, debuffs, and single target nukes. High cast-speed.",
+            "pros":             "Has the highest cast speed of all the mages, can deal significant damage in a prolonged fight, access to debuffs, and a high chance of canceling others attacks due to the number of casts it can do in a short period.",
+            "cons":             "Lacks damaged compared to other mages, can burn mana very quickly due to casting a lot of spells, lack of self-healing/self mana regain skills.",
+            "race":             "Elfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "SpellSinger",
+            "thirdClassName":   "Mystic Muse"
+        },
+        {
+            "name":             "Elemental Summoner",
+            "description":      "Summoner, has access to pets that can fight or help others by buffing, has good AOE ability due to the summon, \ncubics provide good support to the party, ability to summon party members to his location.",
+            "pros":             "Great AOE ability due to having a strong summon and a empower buff for it, relatively cheap and easy to play, fast leveling experience.",
+            "cons":             "Can be very easily shut down by killing/erasing the summon, lack of utility in a melee party.",
+            "race":             "Elfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "Elemental Summoner",
+            "thirdClassName":   "Elemental Master"
+        },
+        {
+            "name":             "Elven Elder",
+            "description":      "Recharger/Buffer/Side-Healer, has access to recharging mana of other players, provides good buffs, can help on healing, has a wide variety of debuffs",
+            "pros":             "Great partner to mages due to recharge and a wide variety of mage buffs, best healer after the bishop, can level up pretty fast even solo in the appropriate spots (undead mobs), strong in PvP due to the high casting speed/debuffs",
+            "cons":             "Lacks fighter buffs, limited zones to level up due to being able to kill undead mobs only, high skill ceiling due to being super imperative in a PvP situation",
+            "race":             "Elfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Oracle",
+            "secondClassName":  "Elven Elder",
+            "thirdClassName":   "Eva´s Saint"
         }
 
     ]
