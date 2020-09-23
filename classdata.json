@@ -199,6 +199,148 @@
             "firstClassName":   "Oracle",
             "secondClassName":  "Elven Elder",
             "thirdClassName":   "Eva´s Saint"
+        },
+        {
+            "name":             "Shillen Knight",
+            "description":      "Tank/Sword&Shield user, has access to cubics that can support the party or himself, high damage compared to other tanks, access to potent debuffs.",
+            "pros":             "Cubics provide an OK benefit to the party, has access to a good amount of debuffs, high damaged compared to other tanks.",
+            "cons":             "Low defensive stats when compared to other tanks, overall a bit of a slow leveling experience.",
+            "race":             "DarkElfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Shillen Knight",
+            "thirdClassName":   "Shillen Templar"
+        },
+        {
+            "name":             "Blade Dancer",
+            "description":      "Support/Dual-Sword user, has access to dances that provide buffs to party members that are within range, can do a respectable amount of damage, access to debuffs.",
+            "pros":             "Great support provided by the dances, to both melee and mage party´s, can do a decent amount of damage, has access to a variety of debuffs, has no issues finding parties for XP.",
+            "cons":             "Overall low defensive stats, expensive due to the need for dual-swords to cast his dances, can be boring due to play-style.",
+            "race":             "DarkElfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Knight",
+            "secondClassName":  "Blade Dancer",
+            "thirdClassName":   "Spectral Dancer"
+        },
+        {
+            "name":             "Abyss Walker",
+            "description":      "Assassin/Dagger user, can deal a high amount of damage even when not landing critical strikes, if Deadly blow procs it can end fights instantly, has access to the opening of chest and debuffs",
+            "pros":             "Highest base damage of all daggers, can kill even when skills don't critically land, a deadly blow is a guaranteed one-shot, can open chest for extra resources, and has access to debuffs.",
+            "cons":             "Low mobility and low defensive stats, can easily be eliminated before getting close to the target, somewhat dependent on skill luck, slow leveling experience.",
+            "race":             "DarkElfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Assassin",
+            "secondClassName":  "Abyss Walker",
+            "thirdClassName":   "Ghost Hunter"
+        },
+        {
+            "name":             "Phantom Ranger",
+            "description":      "Archer/Bow user, can deal a high amount of damage normally, can deal super high damage with critical shots, has access to debuffs.",
+            "pros":             "High base damage, can deal significant damage even when not critically hitting, critical shots can one-shot robe users, has access to debuffs",
+            "cons":             "Low mobility and HP pool, can easily be caught up to and killed by most melee, expensive and slow leveling process",
+            "race":             "DarkElfs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Assassin",
+            "secondClassName":  "Phantom Ranger",
+            "thirdClassName":   "Ghost Sentinel"
+        },
+        {
+            "name":             "SpellHowler",
+            "description":      "Magic-user, has the highest base magic power of all mages, has access to self-healing and self mana regaining skills, great AOE, and single-target spells.",
+            "pros":             "High damage, can quickly kill anyone if lucky with critical hits, great solo farmer due to self-healing and self mana regaining skills.",
+            "cons":             "Low cast speed, lack of mobility, and debuffs.",
+            "race":             "DarkElfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "SpellHowler",
+            "thirdClassName":   "Storm Screamer"
+        },
+        {
+            "name":             "Phantom Summoner",
+            "description":      "Summoner, has access to single-target and Sudo-tanking pets, cubics provide good support to the party, can summon party members to his location.",
+            "pros":             "High single target damage, can level up incredibly fast and cheap due to the summon having great stats and built-in life steal.",
+            "cons":             "Provides little to nothing to a party outside of cubics, lacks AOE pet, and buffing pet.",
+            "race":             "DarkElfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Wizard",
+            "secondClassName":  "Phantom Summoner",
+            "thirdClassName":   "Spectral Summoner"
+        },
+        {
+            "name":             "Shillen Oracle",
+            "description":      "Recharger/Buffer/Healer, has access to the recharge spell, has great buffs both for melee and mage set-ups, can help with healing if needed.",
+            "pros":             "Recharge makes it a great duo partner for any mage, has very useful buffs for both melee and mage player alike, fast leveling due to high demand, can help to heal.",
+            "cons":             "Lack of damage for solo leveling, falls off later in the game due to not gaining many more buffs after a certain threshold.",
+            "race":             "DarkElfs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Oracle",
+            "secondClassName":  "Shillen Oracle",
+            "thirdClassName":   "Shillen Elder"
+        },
+        {
+            "name":             "Destroyer",
+            "description":      "Fighter/Two-Handed Sword user, has incredible damage capability, very sought after for raids.",
+            "pros":             "Best class for farming, has high offensive stats, gets more powerful the lower the HP, always wanted for raids, extremely fast leveling experience, easy to play, and learn.",
+            "cons":             "Lacks mobility, can easily be kited/killed before getting to his target, lack of utility in PvP outside of the damage it provides.",
+            "race":             "Orcs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Raider",
+            "secondClassName":  "Destroyer",
+            "thirdClassName":   "Titan"
+        },
+        {
+            "name":             "Tyrant",
+            "description":      "Fighter/Fists user, has high attack speed, access to a large pool of self buffs, can use ranged attacks.",
+            "pros":             "High versability due to having access to a lot of self buffs, high attack speed making it a good damage dealer, can use ranged attacks, gets more powerful with lower HP",
+            "cons":             "Expensive due to high shot consumption due to having high attack speed, not much utility outside of its damage.",
+            "race":             "Orcs",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Monk",
+            "secondClassName":  "Tyrant",
+            "thirdClassName":   "Grand Khavatari"
+        },
+        {
+            "name":             "Overlord",
+            "description":      "Buffer, can buff entire and entire clan and alliance at the same time, has great buffs for mage setups, can heal CP, and increase its amount.",
+            "pros":             "Only class in the game that can increase and heal CP of others, can buff entire clans and alliances at the same time, great mage buffs.",
+            "cons":             "Lack of damage, slow leveling experience, doesn't fit well in melee set-ups, can be boring due to play-style.",
+            "race":             "Orcs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Shaman",
+            "secondClassName":  "Overlord",
+            "thirdClassName":   "Dominator"
+        },
+        {
+            "name":             "Warcryer",
+            "description":      "Buffer, can buff an entire party at the same time, has great buffs for a melee set up, can summon entire party´s to his location.",
+            "pros":             "Can buff an entire party at the same time, has access to great buffs for a melee set up, can help side-healing, ability to summon the entire party to his location",
+            "cons":             "Lack of damage, slow leveling experience, doesn't fit well in mage set-ups, can be boring due to play-style.",
+            "race":             "Orcs",
+            "starterClassName": "Mystic",
+            "firstClassName":   "Shaman",
+            "secondClassName":  "Warcryer",
+            "thirdClassName":   "Doomcryer"
+        },
+        {
+            "name":             "Warsmith",
+            "description":      "Fighter, can craft materials and resources for others or himself, needed for late-game equipment crafting.",
+            "pros":             "Ability to craft equipment and resources for himself or others, extremely needed later into the game due to being necessary to craft the equipment.",
+            "cons":             "Extreme lack of damage, not useful in party environments, slow leveling experience, may be considered boring due to play-style.",
+            "race":             "Dwarf",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Artisan",
+            "secondClassName":  "Warsmith",
+            "thirdClassName":   "Maestro"
+        },
+        {
+            "name":             "Bounty Hunter",
+            "description":      "Fighter, can spoil monsters to obtain extra loot, needed for late-game material farming to crafting equipment.",
+            "pros":             "Ability to generate extra income due to being able to obtain extra loot, extremely needed later into the game due to being necessary to obtain materials for equipment, easy to play.",
+            "cons":             "Somewhat low damage, not very useful in party environments, slow leveling experience.",
+            "race":             "Dwarf",
+            "starterClassName": "Fighter",
+            "firstClassName":   "Scavenger",
+            "secondClassName":  "Bounty Hunter",
+            "thirdClassName":   "Fortune Seeker"
         }
-
     ]
