@@ -103,38 +103,121 @@ func list(conditions []map[string]string) error {
 	return nil
 }
 
-// Bad code need to improve
-func filterByCondition(list []*lineageclass.Class, conditions []map[string]string) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-	_, valRace := containCondition("race", conditions)
-	_, valStarterClass := containCondition("starterClass", conditions)
-	_, valFirstClass := containCondition("firstClass", conditions)
-	_, valSecondClass := containCondition("secondClass", conditions)
-	_, valThirdClass := containCondition("thirdClass", conditions)
+type listBuilder struct {
+	list []*lineageclass.Class
+}
 
-	l = list
+// a lot of duplicate code need to imporve
+func (l *listBuilder) filterByRace(race string) *listBuilder {
+	newList := []*lineageclass.Class{}
 
-	if len(valRace) > 0 {
-		l = filterRace(valRace, l)
+	if len(race) <= 0 {
+		return l
 	}
 
-	if len(valStarterClass) > 0 {
-		l = filterStarterClass(valStarterClass, l)
+	for _, v := range l.list {
+		if strings.ToLower(v.Race) == strings.ToLower(race) {
+			newList = append(newList, v)
+		}
 	}
 
-	if len(valFirstClass) > 0 {
-		l = filterFirstClass(valFirstClass, l)
-	}
-
-	if len(valSecondClass) > 0 {
-		l = filterSecondClass(valSecondClass, l)
-	}
-
-	if len(valThirdClass) > 0 {
-		l = filterThirdClass(valThirdClass, l)
-	}
+	l.list = newList
 
 	return l
+
+}
+
+func (l *listBuilder) filterByStarterClass(starterClass string) *listBuilder {
+	newList := []*lineageclass.Class{}
+
+	if len(starterClass) <= 0 {
+		return l
+	}
+
+	for _, v := range l.list {
+		if strings.ToLower(v.StarterClassName) == strings.ToLower(starterClass) {
+			newList = append(newList, v)
+		}
+	}
+
+	l.list = newList
+
+	return l
+}
+
+func (l *listBuilder) filterByFirstClass(firstClass string) *listBuilder {
+	newList := []*lineageclass.Class{}
+
+	if len(firstClass) <= 0 {
+		return l
+	}
+
+	for _, v := range l.list {
+		if strings.ToLower(v.FirstClassName) == strings.ToLower(firstClass) {
+			newList = append(newList, v)
+		}
+	}
+
+	l.list = newList
+
+	return l
+}
+
+func (l *listBuilder) filterBySecondClass(secondClass string) *listBuilder {
+	newList := []*lineageclass.Class{}
+
+	if len(secondClass) <= 0 {
+		return l
+	}
+
+	for _, v := range l.list {
+		if strings.ToLower(v.SecondClassName) == strings.ToLower(secondClass) {
+			newList = append(newList, v)
+		}
+	}
+
+	l.list = newList
+
+	return l
+}
+
+func (l *listBuilder) filterByThirdClass(thirdClass string) *listBuilder {
+	newList := []*lineageclass.Class{}
+
+	if len(thirdClass) <= 0 {
+		return l
+	}
+
+	for _, v := range l.list {
+		if strings.ToLower(v.ThirdClassName) == strings.ToLower(thirdClass) {
+			newList = append(newList, v)
+		}
+	}
+
+	l.list = newList
+
+	return l
+}
+
+// Bad code need to improve
+func filterByCondition(list []*lineageclass.Class, conditions []map[string]string) []*lineageclass.Class {
+	_, race := containCondition("race", conditions)
+	_, starterClass := containCondition("starterClass", conditions)
+	_, firstClass := containCondition("firstClass", conditions)
+	_, secondClass := containCondition("secondClass", conditions)
+	_, thirdClass := containCondition("thirdClass", conditions)
+
+	bList := &listBuilder{
+		list: list,
+	}
+
+	bList.filterByRace(race).
+		filterByStarterClass(starterClass).
+		filterByFirstClass(firstClass).
+		filterBySecondClass(secondClass).
+		filterByThirdClass(thirdClass)
+
+	return bList.list
 }
 
 func containCondition(cond string, conditions []map[string]string) (bool, string) {
@@ -146,85 +229,4 @@ func containCondition(cond string, conditions []map[string]string) (bool, string
 	}
 
 	return false, ""
-}
-
-// All filter function is bad code ned to imporve
-func filterRace(race string, list []*lineageclass.Class) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-
-	for _, v := range list {
-		if strings.ToLower(v.Race) == race {
-			l = append(l, v)
-		}
-	}
-
-	if len(l) > 0 {
-		return l
-	}
-
-	return list
-}
-
-func filterStarterClass(class string, list []*lineageclass.Class) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-
-	for _, v := range list {
-		if strings.ToLower(v.StarterClassName) == class {
-			l = append(l, v)
-		}
-	}
-
-	if len(l) > 0 {
-		return l
-	}
-
-	return list
-}
-
-func filterFirstClass(class string, list []*lineageclass.Class) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-
-	for _, v := range list {
-		if strings.ToLower(v.FirstClassName) == class {
-			l = append(l, v)
-		}
-	}
-
-	if len(l) > 0 {
-		return l
-	}
-
-	return list
-}
-
-func filterSecondClass(class string, list []*lineageclass.Class) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-
-	for _, v := range list {
-		if strings.ToLower(v.SecondClassName) == class {
-			l = append(l, v)
-		}
-	}
-
-	if len(l) > 0 {
-		return l
-	}
-
-	return list
-}
-
-func filterThirdClass(class string, list []*lineageclass.Class) []*lineageclass.Class {
-	l := []*lineageclass.Class{}
-
-	for _, v := range list {
-		if strings.ToLower(v.ThirdClassName) == class {
-			l = append(l, v)
-		}
-	}
-
-	if len(l) > 0 {
-		return l
-	}
-
-	return list
 }
